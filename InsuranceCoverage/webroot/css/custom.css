@@ -1,0 +1,11 @@
+html, body { font-family: "Roboto","Helvetica","Arial",sans-serif; } /*This is just present to ensure that the right font is set.*/
+.editable-row{display: none;}
+#success-alert, #failure-alert{display: none}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{ background-color: #795548; border-color: #795548;}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{color: white; background-color: #85200cff;}
+.pagination>li>a, .pagination>li>span{color: #795548;}
+th a{color: #795548;}
+.lead {font-size: 21px !important; font-weight: 300 !important;}
+.error-message-container{font-size: small; font-weight: bold; color: #85200cff;}
+/*Code to overwrite material design library starts*/
+.mdl-layout__header, .mdl-button--raised.mdl-button--colored, .mdl-button--raised.mdl-button--colored:active, .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{ background-color: #85200cff; }
